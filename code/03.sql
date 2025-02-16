@@ -1,4 +1,13 @@
--- SELECT oi.product_id, quantity, oi.unit_price, name, c.customer_id, o.order_date, o.order_id, first_name, last_name
+-- SELECT 
+--     oi.product_id, 
+--     quantity, 
+--     oi.unit_price, 
+--     name, 
+--     c.customer_id, 
+--     o.order_date, 
+--     o.order_id, 
+--     first_name, 
+--     last_name
 -- FROM sql_store.order_items oi
 -- JOIN products p ON p.product_id = oi.product_id
 -- JOIN orders o ON o.order_id = oi.order_id
